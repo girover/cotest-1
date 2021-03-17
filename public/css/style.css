@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 61px;
+    overflow: hidden;
+    box-shadow: 0px 0px 12px -5px #000;
+}
+.header img{
+    width:100%;
+}
+.year{
+    margin-top: 88px;
+}
+.question{
+    margin-left: 20px;
+    padding-left: 30px;
+    border-left: 1px solid #eee;
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+    padding:0;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-left: 1px solid #eee;
+}
+.list-header{
+    display: flex;
+}
+.num{
+    background: #f91e2e;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    left:-40px;
+    color:white;
+    text-align: center;
+    margin-left:10px;
+}
+.title{
+    margin-left:20px;
+}
+li{
+    border: 1px solid #eee;
+    margin: 8px 0px;
+    padding: 6px 8px;
+    text-align: center;
+    box-shadow: 0px 2px 5px -4px #000;
+    border-radius: 3px;
+}
+li:hover{
+    background: #f91e2e;
+    color:white;
+}
+.birthdate-content{
+    padding: 28px 58px;
+    font-size: 22px;
+}
+.answer{
+    padding-left:60px;
+}
+.btn-answer{
+    background: #f91e2e;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    width: 320px;
+    padding: 8px 4px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px 0px #000;
+}
