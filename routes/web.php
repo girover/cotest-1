@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/covid19svar.dima.kmd.dk', function () {
+    return view('welcome');
+});
