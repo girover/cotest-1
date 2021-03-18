@@ -15,6 +15,7 @@ $(document).ready(function(){
             $('#year-number').text($(this).attr('data-year'));
             $('.monthes').css('display', 'block');
             $('.month .num').addClass('active');
+            document.location.href="#month";
         });
 
         $('.monthes li').on('click', function(){

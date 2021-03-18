@@ -15,7 +15,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 61px;
+    height: 50px;
     overflow: hidden;
     box-shadow: 0px 0px 12px -5px #000;
 }
@@ -90,7 +90,7 @@ li:hover{
     color: white;
     border: none;
     margin-bottom: 20px;
-    width: 320px;
+    width: 246px;
     padding: 8px 4px;
     border-radius: 3px;
     box-shadow: 0px 1px 2px 0px #000;
@@ -111,26 +111,26 @@ li:hover{
     position: absolute;
 }
 #test-date{
-    left: 261px;
-    top: 86px;
+    left: 212px;
+    top: 69px;
     background: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 #test-time{
-    left: 39px;
-    top: 109px;
+    left: 31px;
+    top: 88px;
     background: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 #expire-date{
-    left: 282px;
-    top: 307px;
+    left: 228px;
+    top: 248px;
     background: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 #expire-time{
-    left: 44px;
-    top: 331px;
+    left: 35px;
+    top: 267px;
     background: white;
-    font-size: 20px;
+    font-size: 16px;
 }

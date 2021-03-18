@@ -27,7 +27,7 @@
                 <img src="{{asset('images/header.jpg')}}" alt="">
             </div>
             <section class="page-1 show">
-                <div class="year">
+                <div class="year" id="year">
                     <div class="list-header">
                         <div class="num active">1</div>
                         <div class="title">År <span id="year-number"></span></div>
@@ -148,7 +148,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="month">
+                <div class="month" id="month">
                     <div class="list-header">
                         <div class="num">2</div>
                         <div class="title">Måned <span id="month-name"></span></div>
@@ -171,7 +171,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="day">
+                <div class="day" id="day">
                     <div class="list-header">
                         <div class="num">3</div>
                         <div class="title">Dag <span id="day-number"></span></div>
@@ -213,7 +213,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="birthdate">
+                <div class="birthdate" id="birthdate">
+                    <a name="month"></a>
                     <div class="list-header"></span>
                         <div class="num">4</div>
                         <div class="title">Fødselsdag</div>
