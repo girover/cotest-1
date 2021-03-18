@@ -215,7 +215,7 @@
                     </div>
                 </div>
                 <div class="birthdate" id="birthdate">
-                    <a name="birthdate"></a>
+                    <a name="covid19svar.dima.kmd.dk"></a>
                     <div class="list-header"></span>
                         <div class="num">4</div>
                         <div class="title">Fødselsdag</div>

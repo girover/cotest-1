@@ -35,7 +35,7 @@ $(document).ready(function(){
 
             $('.birthdate-content').css('display', 'block');
             $('.answer').css('display', 'block');
-            document.location.href="#birthdate";
+            document.location.href="#covid19svar.dima.kmd.dk";
         });
 
         $('#btn-answer').on('click', function(){
