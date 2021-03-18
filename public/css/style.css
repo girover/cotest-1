@@ -78,6 +78,10 @@ li:hover{
     background: #f91e2e;
     color:white;
 }
+li.selected{
+    background: #f91e2e;
+    color:white;
+}
 .birthdate-content{
     padding: 28px 58px;
     font-size: 22px;

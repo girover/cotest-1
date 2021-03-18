@@ -17,6 +17,8 @@ $(document).ready(function(){
             $('#year-number').text($(this).attr('data-year'));
             $('.monthes').css('display', 'block');
             $('.month .num').addClass('active');
+            $('.years li').removeClass('selected');
+            $(this).addClass('selected');
             document.location.href="#1912";
         });
 
@@ -25,6 +27,8 @@ $(document).ready(function(){
             $('#month-name').text($(this).attr('data-month'));
             $('.days').css('display', 'block');
             $('.day .num').addClass('active');
+            $('.monthes li').removeClass('selected');
+            $(this).addClass('selected');
             document.location.href="#december";
         });
 
@@ -35,6 +39,9 @@ $(document).ready(function(){
 
             $('.birthdate-content').css('display', 'block');
             $('.answer').css('display', 'block');
+
+            $('.days li').removeClass('selected');
+            $(this).addClass('selected');
             document.location.href="#covid19svar.dima.kmd.dk";
         });
 
