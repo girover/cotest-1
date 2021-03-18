@@ -26,96 +26,215 @@
             <div class="header fixed">
                 <img src="{{asset('images/header.jpg')}}" alt="">
             </div>
-            <div class="year">
-                <div class="list-header">
-                    <div class="num">1</div>
-                    <div class="title">År <span id="year-number"></span></div>
+            <section class="page-1 show">
+                <div class="year">
+                    <div class="list-header">
+                        <div class="num active">1</div>
+                        <div class="title">År <span id="year-number"></span></div>
+                    </div>
+                    <div class="years">
+                        <div class="question">Hvilket år er du født?</div>
+                        <ul>
+                            <li data-year="2021">2021</li>
+                            <li data-year="2020">2020</li>
+                            <li data-year="2019">2019</li>
+                            <li data-year="2018">2018</li>
+                            <li data-year="2017">2017</li>
+                            <li data-year="2016">2016</li>
+                            <li data-year="2015">2015</li>
+                            <li data-year="2014">2014</li>
+                            <li data-year="2013">2013</li>
+                            <li data-year="2012">2012</li>
+                            <li data-year="2011">2011</li>
+                            <li data-year="2010">2010</li>
+                            <li data-year="2009">2009</li>
+                            <li data-year="2008">2008</li>
+                            <li data-year="2007">2007</li>
+                            <li data-year="2006">2006</li>
+                            <li data-year="2005">2005</li>
+                            <li data-year="2004">2004</li>
+                            <li data-year="2003">2003</li>
+                            <li data-year="2002">2002</li>
+                            <li data-year="2001">2001</li>
+                            <li data-year="2000">2000</li>
+                            <li data-year="1999">1999</li>
+                            <li data-year="1998">1998</li>
+                            <li data-year="1997">1997</li>
+                            <li data-year="1996">1996</li>
+                            <li data-year="1995">1995</li>
+                            <li data-year="1994">1994</li>
+                            <li data-year="1993">1993</li>
+                            <li data-year="1992">1992</li>
+                            <li data-year="1991">1991</li>
+                            <li data-year="1990">1990</li>
+                            <li data-year="1989">1989</li>
+                            <li data-year="1988">1988</li>
+                            <li data-year="1987">1987</li>
+                            <li data-year="1986">1986</li>
+                            <li data-year="1985">1985</li>
+                            <li data-year="1984">1984</li>
+                            <li data-year="1983">1983</li>
+                            <li data-year="1982">1982</li>
+                            <li data-year="1981">1981</li>
+                            <li data-year="1980">1980</li>
+                            <li data-year="1979">1979</li>
+                            <li data-year="1978">1978</li>
+                            <li data-year="1977">1977</li>
+                            <li data-year="1976">1976</li>
+                            <li data-year="1975">1975</li>
+                            <li data-year="1974">1974</li>
+                            <li data-year="1973">1973</li>
+                            <li data-year="1972">1972</li>
+                            <li data-year="1971">1971</li>
+                            <li data-year="1970">1970</li>
+                            <li data-year="1969">1969</li>
+                            <li data-year="1968">1968</li>
+                            <li data-year="1967">1967</li>
+                            <li data-year="1966">1966</li>
+                            <li data-year="1965">1965</li>
+                            <li data-year="1964">1964</li>
+                            <li data-year="1963">1963</li>
+                            <li data-year="1962">1962</li>
+                            <li data-year="1961">1961</li>
+                            <li data-year="1960">1960</li>
+                            <li data-year="1959">1959</li>
+                            <li data-year="1958">1958</li>
+                            <li data-year="1957">1957</li>
+                            <li data-year="1956">1956</li>
+                            <li data-year="1955">1955</li>
+                            <li data-year="1954">1954</li>
+                            <li data-year="1953">1953</li>
+                            <li data-year="1952">1952</li>
+                            <li data-year="1951">1951</li>
+                            <li data-year="1950">1950</li>
+                            <li data-year="1949">1949</li>
+                            <li data-year="1948">1948</li>
+                            <li data-year="1947">1947</li>
+                            <li data-year="1946">1946</li>
+                            <li data-year="1945">1945</li>
+                            <li data-year="1944">1944</li>
+                            <li data-year="1943">1943</li>
+                            <li data-year="1942">1942</li>
+                            <li data-year="1941">1941</li>
+                            <li data-year="1940">1940</li>
+                            <li data-year="1939">1939</li>
+                            <li data-year="1938">1938</li>
+                            <li data-year="1937">1937</li>
+                            <li data-year="1936">1936</li>
+                            <li data-year="1935">1935</li>
+                            <li data-year="1934">1934</li>
+                            <li data-year="1932">1932</li>
+                            <li data-year="1932">1932</li>
+                            <li data-year="1931">1931</li>
+                            <li data-year="1930">1930</li>
+                            <li data-year="1929">1929</li>
+                            <li data-year="1928">1928</li>
+                            <li data-year="1927">1927</li>
+                            <li data-year="1926">1926</li>
+                            <li data-year="1925">1925</li>
+                            <li data-year="1924">1924</li>
+                            <li data-year="1923">1923</li>
+                            <li data-year="1922">1922</li>
+                            <li data-year="1921">1921</li>
+                            <li data-year="1920">1920</li>
+                            <li data-year="1919">1919</li>
+                            <li data-year="1918">1918</li>
+                            <li data-year="1917">1917</li>
+                            <li data-year="1916">1916</li>
+                            <li data-year="1915">1915</li>
+                            <li data-year="1914">1914</li>
+                            <li data-year="1913">1913</li>
+                            <li data-year="1912">1912</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="question">Hvilket år er du født?</div>
-                <ul class="years">
-                    <li>2021</li>
-                    <li>2020</li>
-                    <li>2019</li>
-                    <li>2018</li>
-                    <li>2017</li>
-                    <li>2016</li>
-                    <li>2015</li>
-                    <li>2014</li>
-                    <li>2013</li>
-                    <li>2012</li>
-                </ul>
-            </div>
-            <div class="month">
-                <div class="list-header">
-                    <div class="num">2</div>
-                    <div class="title">Måned <span id="month-number"></span></div>
+                <div class="month">
+                    <div class="list-header">
+                        <div class="num">2</div>
+                        <div class="title">Måned <span id="month-name"></span></div>
+                    </div>
+                    <div class="monthes">
+                        <div class="question">Hvilken måned er du født?</div>
+                        <ul>
+                            <li data-month="januar">januar</li>
+                            <li data-month="februar">februar</li>
+                            <li data-month="marts">marts</li>
+                            <li data-month="april">april</li>
+                            <li data-month="maj">maj</li>
+                            <li data-month="juni">juni</li>
+                            <li data-month="juli">juli</li>
+                            <li data-month="august">august</li>
+                            <li data-month="september">september</li>
+                            <li data-month="october">october</li>
+                            <li data-month="november">november</li>
+                            <li data-month="december">december</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="question"> Year </div>
-                <ul class="monthes">
-                    <li data-month="januar">januar</li>
-                    <li data-month="februar">februar</li>
-                    <li data-month="marts">marts</li>
-                    <li data-month="april">april</li>
-                    <li data-month="maj">maj</li>
-                    <li data-month="juni">juni</li>
-                    <li data-month="juli">juli</li>
-                    <li data-month="august">august</li>
-                    <li data-month="september">september</li>
-                    <li data-month="october">october</li>
-                    <li data-month="november">november</li>
-                    <li data-month="december">december</li>
-                </ul>
-            </div>
-            <div class="day">
-                <div class="list-header">
-                    <div class="num">3</div>
-                    <div class="title">Dag <span id="day-number"></span></div>
+                <div class="day">
+                    <div class="list-header">
+                        <div class="num">3</div>
+                        <div class="title">Dag <span id="day-number"></span></div>
+                    </div>
+                    <div class="days">
+                        <div class="question">Hvilken dag er du født</div>
+                        <ul>
+                            <li data-day="1">1</li>
+                            <li data-day="2">2</li>
+                            <li data-day="3">3</li>
+                            <li data-day="4">4</li>
+                            <li data-day="5">5</li>
+                            <li data-day="6">6</li>
+                            <li data-day="7">7</li>
+                            <li data-day="8">8</li>
+                            <li data-day="9">9</li>
+                            <li data-day="10">10</li>
+                            <li data-day="11">11</li>
+                            <li data-day="12">12</li>
+                            <li data-day="13">13</li>
+                            <li data-day="14">14</li>
+                            <li data-day="15">15</li>
+                            <li data-day="16">16</li>
+                            <li data-day="17">17</li>
+                            <li data-day="18">18</li>
+                            <li data-day="19">19</li>
+                            <li data-day="20">20</li>
+                            <li data-day="21">21</li>
+                            <li data-day="22">22</li>
+                            <li data-day="23">23</li>
+                            <li data-day="24">24</li>
+                            <li data-day="25">25</li>
+                            <li data-day="26">26</li>
+                            <li data-day="27">27</li>
+                            <li data-day="28">28</li>
+                            <li data-day="29">29</li>
+                            <li data-day="30">30</li>
+                            <li data-day="31">31</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="question"> Year </div>
-                <ul class="days">
-                    <li data-day="1">1</li>
-                    <li data-day="2">2</li>
-                    <li data-day="3">3</li>
-                    <li data-day="4">4</li>
-                    <li data-day="5">5</li>
-                    <li data-day="6">6</li>
-                    <li data-day="7">7</li>
-                    <li data-day="8">8</li>
-                    <li data-day="9">9</li>
-                    <li data-day="10">10</li>
-                    <li data-day="11">11</li>
-                    <li data-day="12">12</li>
-                    <li data-day="13">13</li>
-                    <li data-day="14">14</li>
-                    <li data-day="15">15</li>
-                    <li data-day="16">16</li>
-                    <li data-day="17">17</li>
-                    <li data-day="18">18</li>
-                    <li data-day="19">19</li>
-                    <li data-day="20">20</li>
-                    <li data-day="21">21</li>
-                    <li data-day="22">22</li>
-                    <li data-day="23">23</li>
-                    <li data-day="24">24</li>
-                    <li data-day="25">25</li>
-                    <li data-day="26">26</li>
-                    <li data-day="27">27</li>
-                    <li data-day="28">28</li>
-                    <li data-day="29">29</li>
-                    <li data-day="30">30</li>
-                    <li data-day="31">31</li>
-                </ul>
-            </div>
-            <div class="birthdate">
-                <div class="list-header"></span>
-                    <div class="num">4</div>
-                    <div class="title">Fødselsdag <span id="month-name"></div>
+                <div class="birthdate">
+                    <div class="list-header"></span>
+                        <div class="num">4</div>
+                        <div class="title">Fødselsdag</div>
+                    </div>
                 </div>
-            </div>
-            <div class="birthdate-content">Din fødselsdag er den <span id="f-dag"></span>. <span id="f-month"></span id="f-year"><span></span></div>
-            <div class="answer">
-                <button type="button" class="btn-answer">Se savr</button>
-            </div>
+                <div class="birthdate-content">Din fødselsdag er den <span id="f-day"></span>. <span id="f-month"></span> <span id="f-year"></span></div>
+                <div class="answer">
+                    <button type="button" id="btn-answer">Se savr</button>
+                </div>
+            </section>
+            <section class="page-2 hidden">
+                <div class="page-2-content">
+                    <img src="{{asset('images/2021-03-18-result.jpg')}}" alt="">
+                    <div id="test-date"></div>
+                    <div id="test-time"></div>
+                    <div id="expire-date"></div>
+                    <div id="expire-time"></div>
+                </div>
+            </section>
         </div>
+        <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+        <script src="{{asset('js/main.js')}}"></script>
     </body>
 </html>

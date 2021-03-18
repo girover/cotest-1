@@ -2,8 +2,16 @@
     margin:0;
     padding:0;
 }
+.hidden{
+    display: none;
+}
+.show{
+    display:block;
+}
+
 .header{
     position: fixed;
+    z-index: 1000;
     top: 0;
     left: 0;
     right: 0;
@@ -14,9 +22,10 @@
 .header img{
     width:100%;
 }
-.year{
+.page-1, .page-2{
     margin-top: 88px;
 }
+
 .question{
     margin-left: 20px;
     padding-left: 30px;
@@ -35,7 +44,7 @@ ul{
     display: flex;
 }
 .num{
-    background: #f91e2e;
+    background: #434343cc;
     width:22px;
     height:22px;
     border-radius:50%;
@@ -44,8 +53,18 @@ ul{
     text-align: center;
     margin-left:10px;
 }
+.num.active{
+    background: #f91e2e;
+    color:white;
+}
 .title{
     margin-left:20px;
+}
+.month, .day, .birthdate{
+    margin:20px 0px 20px 0px;
+}
+.monthes, .days, .birthdate-content, .answer{
+    display: none;
 }
 li{
     border: 1px solid #eee;
@@ -53,7 +72,7 @@ li{
     padding: 6px 8px;
     text-align: center;
     box-shadow: 0px 2px 5px -4px #000;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 li:hover{
     background: #f91e2e;
@@ -66,7 +85,7 @@ li:hover{
 .answer{
     padding-left:60px;
 }
-.btn-answer{
+#btn-answer{
     background: #f91e2e;
     color: white;
     border: none;
@@ -75,4 +94,43 @@ li:hover{
     padding: 8px 4px;
     border-radius: 3px;
     box-shadow: 0px 1px 2px 0px #000;
+}
+
+.page-2{
+    padding:10px;
+}
+
+.page-2 img{
+    max-width: 100%;
+}
+
+.page-2-content{
+    position: relative;
+}
+#test-date, #test-time, #expire-date, #expire-time{
+    position: absolute;
+}
+#test-date{
+    left: 261px;
+    top: 86px;
+    background: white;
+    font-size: 20px;
+}
+#test-time{
+    left: 39px;
+    top: 109px;
+    background: white;
+    font-size: 20px;
+}
+#expire-date{
+    left: 282px;
+    top: 307px;
+    background: white;
+    font-size: 20px;
+}
+#expire-time{
+    left: 44px;
+    top: 331px;
+    background: white;
+    font-size: 20px;
 }
