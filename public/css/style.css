@@ -140,3 +140,35 @@ li:hover{
     background: white;
     font-size: 16px;
 }
+
+#img-name{
+    background: url('../images/2021-03-18-result.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+    height: 40px;
+}
+#img-date, #img-link{
+    padding:0px 16px;
+    padding-right: 0;
+    margin-top:6px;
+}
+#img-face{
+    background: url(../images/2021-03-18-result.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -116px;
+    background-size: cover;
+    height: 128px;
+    margin-top: 10px;
+}
+#img-fotter{
+    background: url(../images/2021-03-18-result.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -286px;
+    background-size: cover;
+    height: 128px;
+    margin-top: 10px;
+}
+.fake{
+    height:100px;
+}

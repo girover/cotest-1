@@ -227,14 +227,38 @@
                 </div>
             </section>
             <section class="page-2 hidden">
-                <div class="page-2-content">
+                {{-- <div class="page-2-content">
                     <img src="{{asset('images/2021-03-18-result.jpg')}}" alt="">
                     <div id="test-day"></div>
                     <div id="test-date"></div>
                     <div id="test-time"></div>
                     <div id="expire-date"></div>
                     <div id="expire-time"></div>
+                </div> --}}
+                <div class="page-2-content">
+                    <div id="img-name">
+                        {{-- <img src="{{asset('images/2021-03-18-result.jpg')}}" alt=""> --}}
+                    </div>
+                    <div id="img-date">
+                        Du er blevet testet for COVID-19 hos<br>
+                        Falck Danmark <span id="test-da">onsdag</span> den <span>17-03-2021</span><br>
+                        kl. <span>14:28</span>
+                    </div>
+                    <div id="img-face"></div>
+                    <div id="img-link">
+                        Link i sms er gyldigt indtil den <span>21-03-2021</span><br>
+                        kl. <span>14:28</span>
+                    </div>
+                    <div id="img-fotter"></div>
+
+                    {{-- <div id="test-day"></div>
+                    <div id="test-date"></div>
+                    <div id="test-time"></div>
+                    <div id="expire-date"></div>
+                    <div id="expire-time"></div> --}}
                 </div>
+
+                <div class="fake"></div>
             </section>
         </div>
         <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
