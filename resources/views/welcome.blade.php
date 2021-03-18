@@ -144,11 +144,12 @@
                             <li data-year="1915">1915</li>
                             <li data-year="1914">1914</li>
                             <li data-year="1913">1913</li>
-                            <li data-year="1912">1912</li>
+                            <li data-year="1912">1912<a name="1912"></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="month" id="month">
+                    
                     <div class="list-header">
                         <div class="num">2</div>
                         <div class="title">Måned <span id="month-name"></span></div>
@@ -167,7 +168,7 @@
                             <li data-month="september">september</li>
                             <li data-month="october">october</li>
                             <li data-month="november">november</li>
-                            <li data-month="december">december</li>
+                            <li data-month="december">december<a name="december"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -214,7 +215,7 @@
                     </div>
                 </div>
                 <div class="birthdate" id="birthdate">
-                    <a name="month"></a>
+                    <a name="birthdate"></a>
                     <div class="list-header"></span>
                         <div class="num">4</div>
                         <div class="title">Fødselsdag</div>
@@ -228,6 +229,7 @@
             <section class="page-2 hidden">
                 <div class="page-2-content">
                     <img src="{{asset('images/2021-03-18-result.jpg')}}" alt="">
+                    <div id="test-day"></div>
                     <div id="test-date"></div>
                     <div id="test-time"></div>
                     <div id="expire-date"></div>

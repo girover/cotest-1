@@ -107,8 +107,14 @@ li:hover{
 .page-2-content{
     position: relative;
 }
-#test-date, #test-time, #expire-date, #expire-time{
+#test-day, #test-date, #test-time, #expire-date, #expire-time{
     position: absolute;
+}
+#test-day{
+    left: 122px;
+    top: 66px;
+    background: white;
+    font-size: 17px;
 }
 #test-date{
     left: 212px;

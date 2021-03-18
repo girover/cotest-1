@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    const test_day = 'onsdag';
     const test_date = '17-03-2021';
     const test_time = '14:27';
     const expire_date = '20-03-2020';
@@ -8,6 +9,7 @@ $(document).ready(function(){
     $('#test-time').text(test_time);
     $('#expire-date').text(expire_date);
     $('#expire-time').text(test_time);
+    $('#test-day').text(test_day);
 
         $('.years li').on('click', function(){
 
@@ -15,7 +17,7 @@ $(document).ready(function(){
             $('#year-number').text($(this).attr('data-year'));
             $('.monthes').css('display', 'block');
             $('.month .num').addClass('active');
-            document.location.href="#month";
+            document.location.href="#1912";
         });
 
         $('.monthes li').on('click', function(){
@@ -23,6 +25,7 @@ $(document).ready(function(){
             $('#month-name').text($(this).attr('data-month'));
             $('.days').css('display', 'block');
             $('.day .num').addClass('active');
+            document.location.href="#december";
         });
 
         $('.days li').on('click', function(){
@@ -32,6 +35,7 @@ $(document).ready(function(){
 
             $('.birthdate-content').css('display', 'block');
             $('.answer').css('display', 'block');
+            document.location.href="#birthdate";
         });
 
         $('#btn-answer').on('click', function(){
