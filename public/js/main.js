@@ -5,6 +5,10 @@ $(document).ready(function(){
     const test_time = '14:27';
     const expire_date = '20-03-2020';
 
+    var selected_year = '1983';
+    var selected_month = 'april';
+    var selected_day = '10';
+
     $('#test-date').text(test_date);
     $('#test-time').text(test_time);
     $('#expire-date').text(expire_date);
@@ -19,6 +23,7 @@ $(document).ready(function(){
             $('.month .num').addClass('active');
             $('.years li').removeClass('selected');
             $(this).addClass('selected');
+            selected_year = $(this).attr('data-year');
             document.location.href="#1912";
         });
 
@@ -29,10 +34,17 @@ $(document).ready(function(){
             $('.day .num').addClass('active');
             $('.monthes li').removeClass('selected');
             $(this).addClass('selected');
+            selected_month = $(this).attr('data-month');
             document.location.href="#december";
         });
 
         $('.days li').on('click', function(){
+            selected_day = $(this).attr('data-day');
+            if(selected_year != '1983' || selected_month != 'april' || selected_day != '10'){
+                $('.page-404').removeClass('hidden');
+                $('.page-1').addClass('hidden');
+                $('.page-2').addClass('hidden');
+            }
             $('#f-day').text($(this).attr('data-day'));
             $('.month-name').text($(this).attr('data-day'));
             $('.birthdate .num').addClass('active');

@@ -260,6 +260,17 @@
 
                 <div class="fake"></div>
             </section>
+            <section class="page-404 hidden">
+                <div class="page-404-body">
+                    <img src="{{asset('images/404-text.jpg')}}" alt="" srcset="">
+                    <div class="again">
+                        Prøv igen <a href="/" class="link">her</a>
+                    </div>
+                </div>
+                <div class="page-404-fotter">
+                    <img src="{{asset('images/404-fotter.jpg')}}" alt="" srcset="">
+                </div>
+            </section>
         </div>
         <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
         <script src="{{asset('js/main.js')}}"></script>
