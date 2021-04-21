@@ -236,16 +236,17 @@
                     </div>
                     <div id="img-date">
                         Du er blevet testet for COVID-19 hos<br>
-                        Falck Danmark <span id="test-da">onsdag</span> den <span>17-03-2021</span><br>
+                        Falck Danmark A/S <span id="test-da">onsdag</span> den <span>21-04-2021</span><br>
                         kl. <span>14:28</span>
                     </div>
                     <div id="img-face"></div>
                     <div id="img-type">
-                        Testen er udført med AG / Antigentst, Rapid Ag <br>(Næse)
+                        Testen er udført med AG / Antigentst, Rapid Ag 
+                        <br>(Næse)
                     </div>
                     <div id="img-link">
-                        Link i sms er gyldigt indtil den <span>21-03-2021</span><br>
-                        kl. <span>14:28</span>
+                        Link i sms er gyldigt indtil den <span>25-04-2021</span><br>
+                        <span>14:28</span>
                     </div>
                     <div id="img-signatures">
                         <img src="{{asset('images/signatures.jpg')}}" alt="" srcset="">
