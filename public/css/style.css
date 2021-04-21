@@ -162,6 +162,7 @@ li.selected{
     justify-content: center;
     align-items: center;
     height: 88px;
+    margin: 6px 0px;
 }
 
 #img-signatures img{

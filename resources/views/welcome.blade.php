@@ -236,8 +236,8 @@
                     </div>
                     <div id="img-date">
                         Du er blevet testet for COVID-19 hos<br>
-                        Falck Danmark A/S <span id="test-da">onsdag</span> den <span>21-04-2021</span><br>
-                        kl. <span>14:28</span>
+                        Falck Danmark A/S <span id="test-da">onsdag</span> den <span>21-04-2021</span>
+                        <br><span>14:28</span>
                     </div>
                     <div id="img-face"></div>
                     <div id="img-type">
