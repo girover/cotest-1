@@ -227,15 +227,10 @@
                 </div>
             </section>
             <section class="page-2 hidden">
-                {{-- <div class="page-2-content">
-                    <img src="{{asset('images/2021-03-18-result.jpg')}}" alt="">
-                    <div id="test-day"></div>
-                    <div id="test-date"></div>
-                    <div id="test-time"></div>
-                    <div id="expire-date"></div>
-                    <div id="expire-time"></div>
-                </div> --}}
                 <div class="page-2-content">
+                    <div id="img-flags">
+                        <img src="{{asset('images/flags.jpg')}}" alt="" srcset="">
+                    </div>
                     <div id="img-name">
                         {{-- <img src="{{asset('images/2021-03-18-result.jpg')}}" alt=""> --}}
                     </div>
@@ -245,9 +240,15 @@
                         kl. <span>14:28</span>
                     </div>
                     <div id="img-face"></div>
+                    <div id="img-type">
+                        Testen er udført med AG / Antigentst, Rapid Ag <br>(Næse)
+                    </div>
                     <div id="img-link">
                         Link i sms er gyldigt indtil den <span>21-03-2021</span><br>
                         kl. <span>14:28</span>
+                    </div>
+                    <div id="img-signatures">
+                        <img src="{{asset('images/signatures.jpg')}}" alt="" srcset="">
                     </div>
                     <div id="img-fotter"></div>
 

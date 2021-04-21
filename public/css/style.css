@@ -147,6 +147,27 @@ li.selected{
     font-size: 16px;
 }
 
+#img-flags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#img-flags img{
+    height:100%;
+}
+#img-signatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+#img-signatures img{
+    height:100%;
+}
+
 #img-name{
     background: url('../images/2021-03-18-result.jpg');
     background-repeat: no-repeat;
@@ -154,7 +175,7 @@ li.selected{
     background-size: cover;
     height: 40px;
 }
-#img-date, #img-link{
+#img-date, #img-link, #img-type{
     padding:0px 16px;
     padding-right: 0;
     margin-top:6px;
@@ -170,7 +191,8 @@ li.selected{
 #img-fotter{
     background: url(../images/2021-03-18-result.jpg);
     background-repeat: no-repeat;
-    background-position: 0px -286px;
+    /* background-position: 0px -286px; */
+    background-position: 0px -300px;
     background-size: cover;
     height: 128px;
     margin-top: 10px;
