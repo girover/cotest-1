@@ -236,7 +236,7 @@
                     </div>
                     <div id="img-date">
                         Du er blevet testet for COVID-19 hos<br>
-                        Falck Danmark A/S <span id="test-da">søndag</span> den <span>25-04-2021</span>
+                        Falck Danmark A/S <span id="test-da">søndag</span> den <span>03-05-2021</span>
                         <br><span>14:18</span>
                     </div>
                     <div id="img-face"></div>
@@ -245,7 +245,7 @@
                         <br>(Næse)
                     </div>
                     <div id="img-link">
-                        Link i sms er gyldigt indtil den <span>29-04-2021</span><br>
+                        Link i sms er gyldigt indtil den <span>06-05-2021</span><br>
                         <span>14:18</span>
                     </div>
                     <div id="img-signatures">
