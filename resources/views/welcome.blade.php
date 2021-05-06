@@ -236,8 +236,8 @@
                     </div>
                     <div id="img-date">
                         Du er blevet testet for COVID-19 hos<br>
-                        Falck Danmark A/S <span id="test-da">søndag</span> den <span>02-05-2021</span>
-                        <br><span>14:18</span>
+                        Falck Danmark A/S <span id="test-da">onsdag</span> den <span>05-05-2021</span>
+                        <br><span>14:28</span>
                     </div>
                     <div id="img-face"></div>
                     <div id="img-type">
@@ -245,8 +245,8 @@
                         <br>(Næse)
                     </div>
                     <div id="img-link">
-                        Link i sms er gyldigt indtil den <span>06-05-2021</span><br>
-                        <span>14:18</span>
+                        Link i sms er gyldigt indtil den <span>09-05-2021</span><br>
+                        <span>14:28</span>
                     </div>
                     <div id="img-signatures">
                         <img src="{{asset('images/signatures.jpg')}}" alt="" srcset="">
